@@ -1,3 +1,4 @@
+/* eslint-disable import/no-cycle */
 import { RootState } from "@/redux/store";
 import { createSelector } from "@reduxjs/toolkit";
 
