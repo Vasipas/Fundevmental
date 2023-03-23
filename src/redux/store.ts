@@ -1,3 +1,4 @@
+/* eslint-disable import/no-cycle */
 import { Action, configureStore, ThunkAction } from "@reduxjs/toolkit";
 import createSagaMiddleware from 'redux-saga';
 import { persistStore, persistReducer } from 'redux-persist';
